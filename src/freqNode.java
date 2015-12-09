@@ -2,7 +2,7 @@
 public class freqNode {
 	public char letter;
 	public int freq;
-	public long code;
+	public String code;
 	
 	public freqNode left;
 	public freqNode right;
@@ -21,4 +21,5 @@ public class freqNode {
 		left = l;
 		right = r;
 	}
+	
 }
